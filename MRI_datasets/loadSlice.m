@@ -1,4 +1,5 @@
 % FUNCTION TO LOAD THE APPROPRIATE SLICE
+% Arguments: Slice number
 function [badCh1, badCh2, badCh3, goodCh1, goodCh2, goodCh3] = loadSlice(slice)
 
     switch slice
